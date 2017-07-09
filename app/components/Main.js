@@ -3,7 +3,7 @@ var React = require("react");
 //  Used to make API calls
 var helpers = require("../utils/helpers");
 
-var Parent = React.createClass({
+var Main = React.createClass({
 
         render: function() {
             return (
@@ -17,4 +17,4 @@ var Parent = React.createClass({
 
 });
 
-module.exports = Parent;
+module.exports = Main;
